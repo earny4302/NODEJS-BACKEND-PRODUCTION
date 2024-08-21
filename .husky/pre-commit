@@ -1,1 +1,1 @@
-node test.js
+npm test.js
