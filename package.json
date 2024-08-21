@@ -4,7 +4,7 @@
   "description": "End To End Node JS Production Setup 🚀 | Backend | Mongo DB | Express JS | Coder BB #coding",
   "main": "index.js",
   "scripts": {
-    "test":  "node test.js",
+    "test": "node test.js",
     "start": "node index.js",
     "prepare": "husky"
   },

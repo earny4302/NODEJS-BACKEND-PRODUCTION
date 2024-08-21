@@ -1,1 +1,1 @@
-console.log("this is the test for husky")
+console.log("this is the test for husky");
