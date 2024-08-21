@@ -4,15 +4,21 @@
   "description": "End To End Node JS Production Setup 🚀 | Backend | Mongo DB | Express JS | Coder BB #coding",
   "main": "index.js",
   "scripts": {
+    "dist": "npx tsc",
+    "dev": "nodemon src/index.ts",
     "test": "node test.js",
-    "start": "node index.js",
+    "start": "node dist/index.js",
     "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.4.2",
     "husky": "^9.1.5",
-    "lint-staged": "^15.2.9"
+    "lint-staged": "^15.2.9",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }
